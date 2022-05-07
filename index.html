@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Online Student Registration Form</title>
+    <title>Student Registration Form</title>
     <script src="js.js"></script>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 
 <body>
     <div class="container">
-        <h1>XYZ College/School</h1>
+        <h1>Amrutvahini Polytechnic</h1>
         <h2>Student Registration From</h2>
         <div class="form-wrapper">
             <form action="">
@@ -54,18 +51,18 @@
                 <div class="form-item">
                     <label for="level">Level:</label>
                     <select name="level" id="level">
-                        <option value="highschool">High School</option>
-                        <option value="highschool">Bachelors </option>
-                        <option value="highschool">Masters</option>
+                        <option value="highschool">SSC</option>
+                        <option value="highschool">HSC </option>
+                        <option value="highschool">Bachelor</option>
                         <option value="highschool">Phd</option>
                     </select>
                 </div>
                 <div class="form-item">
                     <label for="department">Department:</label>
                     <select name="department" id="department">
-                        <option value="electrical">Electrical Engineering</option>
+                        <option value="electrical">Information Technology</option>
                         <option value="electrical">Computer Engineering</option>
-                        <option value="electrical">Software Engineering</option>
+                        <option value="electrical">Electonic Engineering</option>
                         <option value="electrical">Civil Engineering</option>
                     </select>
                 </div>
@@ -75,7 +72,7 @@
                     <input type="tel" name="phonenumber" id="phonenumber" placeholder="XXX XXX XXXX" required>
                 </div>
                 <hr>
-                <h3>Permanent Address</h3>
+                <h3>Address</h3>
                 <div class="form-item">
                     <label for="pstate">State:</label>
                     <input type="text" name="pstate" id="pstate" placeholder="State" required>
@@ -93,28 +90,7 @@
                     <input type="tel" name="pphonenumber" id="pphonenumber" placeholder="XXX XXX XXXX" required>
                 </div>
                 <hr>
-                <h3>Temporary Address</h3>
-                <div class="same-perm">
-                    <label for="sameaspermanent">Same as Permanent Address:</label> <input type="checkbox" name="sameaspermanent" id="sameaspermanent">
-                </div>
-                <div class="form-item">
-                    <label for="tstate">State:</label>
-                    <input type="text" name="tstate" id="tstate" placeholder="State" required>
-                </div>
-                <div class="form-item">
-                    <label for="tcity">City:</label>
-                    <input type="text" name="tcity" id="tcity" placeholder="City" required>
-                </div>
-                <div class="form-item">
-                    <label for="tzip">Zip Code:</label>
-                    <input type="number" name="tzip" id="tzip" placeholder="Zip Code" required>
-                </div>
-                <div class="form-item">
-                    <label for="tphonenumber">Tel/Mobile:</label>
-                    <input type="tel" name="tphonenumber" id="tphonenumber" placeholder="XXX XXX XXXX" required>
-                </div>
-
-                <button class="register" type="submit">Register</button>
+                <center> <button class="register" type="submit">Register</button> </center>
             </form>
         </div>
 
